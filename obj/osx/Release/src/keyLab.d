@@ -719,7 +719,18 @@ obj/osx/Release/src/keyLab.o: \
   /Users/nicolabertelloni/Developer/of_v0.10.0/libs/openFrameworks/video/ofAVFoundationVideoPlayer.h \
   /Users/nicolabertelloni/Developer/of_v0.10.0/libs/openFrameworks/3d/of3dUtils.h \
   /Users/nicolabertelloni/Developer/of_v0.10.0/libs/openFrameworks/3d/ofCamera.h \
-  /Users/nicolabertelloni/Developer/of_v0.10.0/libs/openFrameworks/3d/ofEasyCam.h
+  /Users/nicolabertelloni/Developer/of_v0.10.0/libs/openFrameworks/3d/ofEasyCam.h \
+  /Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGui/src/ofxGui.h \
+  /Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGui/src/ofxToggle.h \
+  /Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGui/src/ofxBaseGui.h \
+  /Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGui/src/ofxSlider.h \
+  /Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGui/src/ofxInputField.h \
+  /Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGui/src/ofxSliderGroup.h \
+  /Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGui/src/ofxGuiGroup.h \
+  /Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGui/src/ofxButton.h \
+  /Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGui/src/ofxLabel.h \
+  /Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGui/src/ofxColorPicker.h \
+  /Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGui/src/ofxPanel.h
 
 /Users/nicolabertelloni/Developer/of_v0.10.0/apps/myApps/keyboardPanel/src/ofApp.h:
 
@@ -2160,3 +2171,25 @@ obj/osx/Release/src/keyLab.o: \
 /Users/nicolabertelloni/Developer/of_v0.10.0/libs/openFrameworks/3d/ofCamera.h:
 
 /Users/nicolabertelloni/Developer/of_v0.10.0/libs/openFrameworks/3d/ofEasyCam.h:
+
+/Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGui/src/ofxGui.h:
+
+/Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGui/src/ofxToggle.h:
+
+/Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGui/src/ofxBaseGui.h:
+
+/Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGui/src/ofxSlider.h:
+
+/Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGui/src/ofxInputField.h:
+
+/Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGui/src/ofxSliderGroup.h:
+
+/Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGui/src/ofxGuiGroup.h:
+
+/Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGui/src/ofxButton.h:
+
+/Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGui/src/ofxLabel.h:
+
+/Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGui/src/ofxColorPicker.h:
+
+/Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGui/src/ofxPanel.h:

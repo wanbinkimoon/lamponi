@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<group>
+	<test>200</test>
+</group>
+<keyParams>
+	<Palette__1>0</Palette__1>
+	<Palette__2>0</Palette__2>
+	<Palette__3>0</Palette__3>
+	<Palette__4>0</Palette__4>
+	<Palette__5>0</Palette__5>
+	<Palette__6>0</Palette__6>
+	<Palette__7>0</Palette__7>
+	<Palette__8>0</Palette__8>
+	<Palette__9>0</Palette__9>
+	<Palette__0>0</Palette__0>
+</keyParams>
+<Palette_Selector>
+	<Palette__1>0</Palette__1>
+	<Palette__2>0</Palette__2>
+	<Palette__3>1</Palette__3>
+	<Palette__4>0</Palette__4>
+	<Palette__5>0</Palette__5>
+	<Palette__6>0</Palette__6>
+	<Palette__7>0</Palette__7>
+	<Palette__8>0</Palette__8>
+	<Palette__9>0</Palette__9>
+	<Palette__0>0</Palette__0>
+</Palette_Selector>

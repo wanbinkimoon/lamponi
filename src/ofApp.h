@@ -1,6 +1,7 @@
 #pragma once
 
 #include "ofMain.h"
+#include "ofxGui.h"
 
 class ofApp : public ofBaseApp{
 
@@ -21,7 +22,27 @@ class ofApp : public ofBaseApp{
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
 		
+
+		// line to past in your ofApp.h
 		static const int keyNumb = 10;		
 		bool keyTriggers [keyNumb];
 		void keyLab(int key);
+
+
+		void keyPanelSetup();
+		void keyPanelUpdate();
+		void keyPanelDraw();
+
+		ofParameter<bool> key1;
+		ofParameter<bool> key2;
+		ofParameter<bool> key3;
+		ofParameter<bool> key4;
+		ofParameter<bool> key5;
+		ofParameter<bool> key6;
+		ofParameter<bool> key7;
+		ofParameter<bool> key8;
+		ofParameter<bool> key9;
+		ofParameter<bool> key0;
+		ofParameterGroup keyParams;
+		ofxPanel keyPanel;
 };

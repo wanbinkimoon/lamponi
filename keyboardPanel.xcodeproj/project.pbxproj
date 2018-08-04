@@ -440,6 +440,28 @@
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
+			<key>F03D24BBA874C91630629BEC</key>
+			<dict>
+				<key>fileRef</key>
+				<string>770C7998C3113EC1EF784305</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>770C7998C3113EC1EF784305</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>keyLab.cpp</string>
+				<key>path</key>
+				<string>src/keyLab.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
 			<key>6948EE371B920CB800B5AC1A</key>
 			<dict>
 				<key>children</key>
@@ -570,6 +592,7 @@ fi
 					<key>HEADER_SEARCH_PATHS</key>
 					<array>
 						<string>$(OF_CORE_HEADERS)</string>
+						<string>src</string>
 						<string>../../../addons/ofxGui/src</string>
 					</array>
 					<key>CONFIGURATION_BUILD_DIR</key>
@@ -630,6 +653,7 @@ fi
 					<key>HEADER_SEARCH_PATHS</key>
 					<array>
 						<string>$(OF_CORE_HEADERS)</string>
+						<string>src</string>
 						<string>../../../addons/ofxGui/src</string>
 					</array>
 					<key>COMBINE_HIDPI_IMAGES</key>
@@ -827,6 +851,7 @@ fi
 					<key>HEADER_SEARCH_PATHS</key>
 					<array>
 						<string>$(OF_CORE_HEADERS)</string>
+						<string>src</string>
 						<string>../../../addons/ofxGui/src</string>
 					</array>
 					<key>CONFIGURATION_BUILD_DIR</key>
@@ -885,6 +910,7 @@ fi
 					<key>HEADER_SEARCH_PATHS</key>
 					<array>
 						<string>$(OF_CORE_HEADERS)</string>
+						<string>src</string>
 						<string>../../../addons/ofxGui/src</string>
 					</array>
 					<key>CONFIGURATION_BUILD_DIR</key>
@@ -942,6 +968,7 @@ fi
 				<array>
 					<string>E4B69E200A3A1BDC003C02F2</string>
 					<string>E4B69E210A3A1BDC003C02F2</string>
+					<string>F03D24BBA874C91630629BEC</string>
 					<string>856AA354D08AB4B323081444</string>
 					<string>5CBB2AB3A60F65431D7B555D</string>
 					<string>853E0BA2F448076739446874</string>
@@ -1037,6 +1064,7 @@ fi
 					<key>HEADER_SEARCH_PATHS</key>
 					<array>
 						<string>$(OF_CORE_HEADERS)</string>
+						<string>src</string>
 						<string>../../../addons/ofxGui/src</string>
 					</array>
 					<key>COMBINE_HIDPI_IMAGES</key>
@@ -1082,6 +1110,7 @@ fi
 					<key>HEADER_SEARCH_PATHS</key>
 					<array>
 						<string>$(OF_CORE_HEADERS)</string>
+						<string>src</string>
 						<string>../../../addons/ofxGui/src</string>
 					</array>
 					<key>COMBINE_HIDPI_IMAGES</key>
@@ -1125,6 +1154,7 @@ fi
 					<string>E4B69E1D0A3A1BDC003C02F2</string>
 					<string>E4B69E1E0A3A1BDC003C02F2</string>
 					<string>E4B69E1F0A3A1BDC003C02F2</string>
+					<string>770C7998C3113EC1EF784305</string>
 				</array>
 				<key>isa</key>
 				<string>PBXGroup</string>

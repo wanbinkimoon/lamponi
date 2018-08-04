@@ -2,25 +2,28 @@
 
 //--------------------------------------------------------------
 void ofApp::setup(){
-  ofSetWindowShape(800, 800);
-
+  ofSetWindowShape(300, 800);
 	//  ofSetBackgroundAuto(false);
   ofBackground(0, 0, 0);
+
+	keyPanelSetup();
 }
 
 //--------------------------------------------------------------
 void ofApp::update(){
-
+	keyPanelUpdate();
 }
 
 //--------------------------------------------------------------
 void ofApp::draw(){
-    ofSetColor(100, 200, 200);
+  ofSetColor(100, 200, 200);
+	keyPanelDraw();
 }
 
 //--------------------------------------------------------------
 void ofApp::keyPressed(int key){
   keyLab(key);
+  keyPanelDraw();
 }
 
 //--------------------------------------------------------------
