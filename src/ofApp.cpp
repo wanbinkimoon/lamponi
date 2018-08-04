@@ -22,14 +22,11 @@ void ofApp::draw(){
 	if(key3) ofBackground(150, 100, 150);
 	if(key4) ofBackground(200, 200, 50);
 	if(key5) ofBackground(100, 200, 250);
-
-	keyPanelDraw();
 }
 
 //--------------------------------------------------------------
 void ofApp::keyPressed(int key){
   keyLab(key);
-  keyPanelDraw();
 }
 
 //--------------------------------------------------------------

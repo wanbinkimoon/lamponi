@@ -2,20 +2,21 @@
 #include "ofApp.h"
 
 void ofApp::keyPanelSetup(){
-	keyParams.setName("Palette Selector");
 	
-	keyParams.add(keyAsRadio.set("Radio mode", true, 10, 300));
-	keyParams.add(key1.set("Palette #1", false, 10, 300));
-	keyParams.add(key2.set("Palette #2", false, 10, 300));
-	keyParams.add(key3.set("Palette #3", false, 10, 300));
-	keyParams.add(key4.set("Palette #4", false, 10, 300));
-	keyParams.add(key5.set("Palette #5", false, 10, 300));
-	keyParams.add(key6.set("Palette #6", false, 10, 300));
-	keyParams.add(key7.set("Palette #7", false, 10, 300));
-	keyParams.add(key8.set("Palette #8", false, 10, 300));
-	keyParams.add(key9.set("Palette #9", false, 10, 300));
-	keyParams.add(key0.set("Palette #0", false, 10, 300));
-	keyPanel.setup(keyParams);
+	keyAsRadio.set("Radio mode", true);
+	key1.set("Palette #1", false);
+	key2.set("Palette #2", false);
+	key3.set("Palette #3", false);
+	key4.set("Palette #4", false);
+	key5.set("Palette #5", false);
+	key6.set("Palette #6", false);
+	key7.set("Palette #7", false);
+	key8.set("Palette #8", false);
+	key9.set("Palette #9", false);
+	key0.set("Palette #0", false);
+	
+	// keyPanel.setName("Palette Selector");
+	keyPanel.add(keyAsRadio, key1, key2, key3, key4, key5, key6, key7, key8, key9, key0);
 }
 
 // --------------------------------------------------------------
@@ -37,10 +38,9 @@ void ofApp::keyPanelUpdate(){
 
 // --------------------------------------------------------------
 
-void ofApp::keyPanelDraw(){
-	  keyPanel.draw();
-}
-
+// void ofApp::keyPanelDraw(){
+// 	  keyPanel.draw();
+// }
 
 //--------------------------------------------------------------
 

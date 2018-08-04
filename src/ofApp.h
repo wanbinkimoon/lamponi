@@ -1,7 +1,7 @@
 #pragma once
 
 #include "ofMain.h"
-#include "ofxGui.h"
+#include "ofxGuiExtended.h"
 
 class ofApp : public ofBaseApp{
 
@@ -39,7 +39,7 @@ class ofApp : public ofBaseApp{
 
 		void keyPanelSetup();
 		void keyPanelUpdate();
-		void keyPanelDraw();
+		// void keyPanelDraw();
 
 		ofParameter<bool> key1;
 		ofParameter<bool> key2;
@@ -53,5 +53,5 @@ class ofApp : public ofBaseApp{
 		ofParameter<bool> key0;
 		ofParameter<bool> keyAsRadio;
 		ofParameterGroup keyParams;
-		ofxPanel keyPanel;
+		ofxGui keyPanel;
 };

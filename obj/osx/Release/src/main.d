@@ -720,17 +720,37 @@ obj/osx/Release/src/main.o: \
   /Users/nicolabertelloni/Developer/of_v0.10.0/libs/openFrameworks/3d/ofCamera.h \
   /Users/nicolabertelloni/Developer/of_v0.10.0/libs/openFrameworks/3d/ofEasyCam.h \
   /Users/nicolabertelloni/Developer/of_v0.10.0/apps/myApps/keyboardPanel/src/ofApp.h \
-  /Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGui/src/ofxGui.h \
-  /Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGui/src/ofxToggle.h \
-  /Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGui/src/ofxBaseGui.h \
-  /Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGui/src/ofxSlider.h \
-  /Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGui/src/ofxInputField.h \
-  /Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGui/src/ofxSliderGroup.h \
-  /Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGui/src/ofxGuiGroup.h \
-  /Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGui/src/ofxButton.h \
-  /Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGui/src/ofxLabel.h \
-  /Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGui/src/ofxColorPicker.h \
-  /Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGui/src/ofxPanel.h
+  /Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGuiExtended/src/ofxGuiExtended.h \
+  /Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGuiExtended/src/ofxGuiElement.h \
+  /Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGuiExtended/src/DOM/Element.h \
+  /Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGuiExtended/src/DOM/Events.h \
+  /Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGuiExtended/src/DOM/Exceptions.h \
+  /Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGuiExtended/src/DOM/Types.h \
+  /Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGuiExtended/src/DOM/EventTarget.h \
+  /Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGuiExtended/src/containers/ofxGuiGroup.h \
+  /Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGuiExtended/src/containers/ofxGuiContainer.h \
+  /Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGuiExtended/src/containers/../controls/ofxGuiSlider.h \
+  /Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGuiExtended/src/containers/../controls/ofxGuiRangeSlider.h \
+  /Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGuiExtended/src/containers/../controls/ofxGuiButton.h \
+  /Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGuiExtended/src/controls/ofxGuiToggle.h \
+  /Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGuiExtended/src/containers/../controls/ofxGuiLabel.h \
+  /Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGuiExtended/src/containers/ofxGuiSliderGroup.h \
+  /Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGuiExtended/src/containers/ofxGuiPanel.h \
+  /Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGuiExtended/src/containers/ofxGuiMenu.h \
+  /Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGuiExtended/src/containers/ofxGuiTabs.h \
+  /Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGuiExtended/src/controls/ofxGuiValuePlotter.h \
+  /Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGuiExtended/src/controls/ofxGuiFpsPlotter.h \
+  /Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGuiExtended/src/controls/ofxGuiFunctionPlotter.h \
+  /Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGuiExtended/src/controls/ofxGuiInputField.h \
+  /Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGuiExtended/src/controls/ofxGuiGraphics.h \
+  /Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGuiExtended/src/controls/ofxGuiZoomableGraphics.h \
+  /Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGuiExtended/src/DOM/ofxDOM.h \
+  /Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGuiExtended/src/DOM/Document.h \
+  /Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGuiExtended/src/view/ofxGuiDefaultConfig.h \
+  /Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGuiExtended/src/view/ofxDOMFlexBoxLayout.h \
+  /Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGuiExtended/src/view/../DOM/Layout.h \
+  /Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGuiExtended/src/view/ofxDOMBoxLayout.h \
+  /Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGuiExtended/src/view/JsonConfigParser.h
 
 /Users/nicolabertelloni/Developer/of_v0.10.0/libs/openFrameworks/ofMain.h:
 
@@ -2172,24 +2192,64 @@ obj/osx/Release/src/main.o: \
 
 /Users/nicolabertelloni/Developer/of_v0.10.0/apps/myApps/keyboardPanel/src/ofApp.h:
 
-/Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGui/src/ofxGui.h:
+/Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGuiExtended/src/ofxGuiExtended.h:
 
-/Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGui/src/ofxToggle.h:
+/Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGuiExtended/src/ofxGuiElement.h:
 
-/Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGui/src/ofxBaseGui.h:
+/Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGuiExtended/src/DOM/Element.h:
 
-/Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGui/src/ofxSlider.h:
+/Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGuiExtended/src/DOM/Events.h:
 
-/Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGui/src/ofxInputField.h:
+/Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGuiExtended/src/DOM/Exceptions.h:
 
-/Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGui/src/ofxSliderGroup.h:
+/Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGuiExtended/src/DOM/Types.h:
 
-/Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGui/src/ofxGuiGroup.h:
+/Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGuiExtended/src/DOM/EventTarget.h:
 
-/Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGui/src/ofxButton.h:
+/Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGuiExtended/src/containers/ofxGuiGroup.h:
 
-/Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGui/src/ofxLabel.h:
+/Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGuiExtended/src/containers/ofxGuiContainer.h:
 
-/Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGui/src/ofxColorPicker.h:
+/Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGuiExtended/src/containers/../controls/ofxGuiSlider.h:
 
-/Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGui/src/ofxPanel.h:
+/Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGuiExtended/src/containers/../controls/ofxGuiRangeSlider.h:
+
+/Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGuiExtended/src/containers/../controls/ofxGuiButton.h:
+
+/Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGuiExtended/src/controls/ofxGuiToggle.h:
+
+/Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGuiExtended/src/containers/../controls/ofxGuiLabel.h:
+
+/Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGuiExtended/src/containers/ofxGuiSliderGroup.h:
+
+/Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGuiExtended/src/containers/ofxGuiPanel.h:
+
+/Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGuiExtended/src/containers/ofxGuiMenu.h:
+
+/Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGuiExtended/src/containers/ofxGuiTabs.h:
+
+/Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGuiExtended/src/controls/ofxGuiValuePlotter.h:
+
+/Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGuiExtended/src/controls/ofxGuiFpsPlotter.h:
+
+/Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGuiExtended/src/controls/ofxGuiFunctionPlotter.h:
+
+/Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGuiExtended/src/controls/ofxGuiInputField.h:
+
+/Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGuiExtended/src/controls/ofxGuiGraphics.h:
+
+/Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGuiExtended/src/controls/ofxGuiZoomableGraphics.h:
+
+/Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGuiExtended/src/DOM/ofxDOM.h:
+
+/Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGuiExtended/src/DOM/Document.h:
+
+/Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGuiExtended/src/view/ofxGuiDefaultConfig.h:
+
+/Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGuiExtended/src/view/ofxDOMFlexBoxLayout.h:
+
+/Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGuiExtended/src/view/../DOM/Layout.h:
+
+/Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGuiExtended/src/view/ofxDOMBoxLayout.h:
+
+/Users/nicolabertelloni/Developer/of_v0.10.0/addons/ofxGuiExtended/src/view/JsonConfigParser.h:
