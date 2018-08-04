@@ -1,6 +1,9 @@
 
 # Created by https://www.gitignore.io/api/c++,cmake,openframeworks
 
+# Avoid make type in git 
+bin/
+
 ### C++ ###
 # Prerequisites
 *.d
