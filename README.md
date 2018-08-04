@@ -3,17 +3,16 @@
 
 ------------------------------------------------
 
-## Usage 
-The module is just three steps away:   
+# What is this?
+*Lamponi* is a open framework controller for number keys, with a simple GUI and and example of how to use the triggers. 
 
-1. Import `keyLab` 
-2. From `ofApp.h` file copy the following lines
-  
-```c++
-  static const int keyNumb = 10;		
-  bool keyTriggers [keyNumb];
-  void keyLab(int key);
-```
-3. Type `keyLab(key);` inside your `ofApp::keyPressed` in `ofApp.cpp`-
+Press `\` to switch to radio mode.
 
-Done!
+------------------------------------------------
+
+# UI 
+
+![GUI](./assets/panel_build_003.png)
+
+
+

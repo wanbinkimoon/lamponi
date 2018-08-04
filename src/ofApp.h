@@ -6,6 +6,13 @@
 class ofApp : public ofBaseApp{
 
 	public:
+		
+		// settings
+		int stageW = 600;
+		int stageH = 600;
+
+		// --------------------------------------------------------------
+		
 		void setup();
 		void update();
 		void draw();
@@ -25,7 +32,8 @@ class ofApp : public ofBaseApp{
 
 		// line to past in your ofApp.h
 		static const int keyNumb = 10;		
-		bool keyTriggers [keyNumb];
+		bool keyValue [keyNumb];
+		bool keyRadioValue = true;
 		void keyLab(int key);
 
 
@@ -43,6 +51,7 @@ class ofApp : public ofBaseApp{
 		ofParameter<bool> key8;
 		ofParameter<bool> key9;
 		ofParameter<bool> key0;
+		ofParameter<bool> keyAsRadio;
 		ofParameterGroup keyParams;
 		ofxPanel keyPanel;
 };

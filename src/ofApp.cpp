@@ -2,7 +2,7 @@
 
 //--------------------------------------------------------------
 void ofApp::setup(){
-  ofSetWindowShape(300, 800);
+  ofSetWindowShape(stageW, stageH);
 	//  ofSetBackgroundAuto(false);
   ofBackground(0, 0, 0);
 
@@ -17,6 +17,12 @@ void ofApp::update(){
 //--------------------------------------------------------------
 void ofApp::draw(){
   ofSetColor(100, 200, 200);
+	if(key1) ofBackground(100, 200, 150);
+	if(key2) ofBackground(200, 100, 150);
+	if(key3) ofBackground(150, 100, 150);
+	if(key4) ofBackground(200, 200, 50);
+	if(key5) ofBackground(100, 200, 250);
+
 	keyPanelDraw();
 }
 
